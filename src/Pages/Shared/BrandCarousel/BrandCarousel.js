@@ -8,10 +8,10 @@ const BrandCarousel = () => {
     <div>
       <Carousel>
         <Carousel.Item>
-          <img className="d-block w-100" src={Brand1} alt="First slide" />
+          <img style={{ height: "173px" }} className="d-block w-100" src={Brand1} alt="First slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={Brand2} alt="Second slide" />
+          <img style={{ height: "173px" }} className="d-block w-100" src={Brand2} alt="Second slide" />
         </Carousel.Item>
       </Carousel>
     </div>
